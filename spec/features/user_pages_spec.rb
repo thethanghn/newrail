@@ -42,4 +42,12 @@ describe "Signup page" do
 		end
 	end
 
+	describe "with error message" do
+		before {click_button submit}
+		it "should show error messages" do
+			page.should have_selector('title', text: 'Signup')
+			page.should have_content('error')
+		end
+	end
+
 end
