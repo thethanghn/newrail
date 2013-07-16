@@ -3,10 +3,122 @@
 	{
 		"selected_items":
 		[
+			[
+				"rem",
+				"remember_token"
+			],
+			[
+				"have_",
+				"have_selector"
+			],
+			[
+				"sign",
+				"signin_path"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"gra",
+				"gravatar_url"
+			],
+			[
+				"email",
+				"email_after_save"
+			],
+			[
+				"should",
+				"should_not"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"be",
+				"be_valid"
+			],
+			[
+				"sh",
+				"should_not"
+			],
+			[
+				"Sigup",
+				"Signup"
+			],
+			[
+				"vali",
+				"valid_address"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/helpers/sessions_helper.rb",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/models/user_spec.rb",
+			"settings":
+			{
+				"buffer_size": 3033,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20130714095518_add_remember_token_to_users.rb",
+			"settings":
+			{
+				"buffer_size": 163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 904,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 917,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 663,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,6 +144,45 @@
 	},
 	"file_history":
 	[
+		"/C/Sites/newrail/app/views/users/new.html.erb",
+		"/C/Sites/newrail/app/views/shared/_error_messages.html.erb",
+		"/C/Sites/newrail/app/controllers/users_controller.rb",
+		"/C/Sites/newrail/app/views/shared/_flash.html.erb",
+		"/C/Sites/newrail/app/assets/stylesheets/custom.css.scss",
+		"/C/Sites/newrail/app/views/layouts/application.html.erb",
+		"/C/Sites/newrail/app/helpers/users_helper.rb",
+		"/C/Sites/newrail/spec/features/authentication_pages_spec.rb",
+		"/C/Sites/newrail/app/views/sessions/new.html.erb",
+		"/C/Sites/newrail/spec/factories.rb",
+		"/C/Sites/newrail/config/routes.rb",
+		"/C/Sites/newrail/app/controllers/sessions_controller.rb",
+		"/C/Sites/newrail/app/controllers/application_controller.rb",
+		"/C/Sites/newrail/app/models/user.rb",
+		"/C/Sites/newrail/spec/models/user_spec.rb",
+		"/C/Sites/newrail/spec/features/user_pages_spec.rb",
+		"/C/Sites/newrail/Gemfile",
+		"/C/Sites/newrail/spec/features/static_pages_spec.rb",
+		"/C/Sites/newrail/app/views/users/show.html.erb",
+		"/C/Sites/newrail/spec/spec_helper.rb",
+		"/C/Sites/newrail/config/environments/test.rb",
+		"/C/Sites/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb",
+		"/C/Sites/newrail/spec/support/utilities.rb",
+		"/C/Sites/newrail/app/views/static_pages/home.html.erb",
+		"/C/Sites/newrail/app/controllers/static_pages_controller.rb",
+		"/C/Sites/newrail/spec/controllers/static_pages_controller_spec.rb",
+		"/C/Sites/newrail/app/helpers/application_helper.rb",
+		"/C/Sites/newrail/spec/helpers/static_pages_helper_spec.rb",
+		"/C/Sites/newrail/app/views/layouts/_footer.html.erb",
+		"/C/Sites/newrail/spec/support/utilities.erb",
+		"/C/Sites/newrail/db/migrate/20130713131814_add_index_to_users_email.rb",
+		"/C/Sites/newrail/db/migrate/20130713104228_create_users.rb",
+		"/C/Sites/newrail/db/development.sqlite3",
+		"/C/Sites/newrail/spec/requests/user_pages_spec.rb",
+		"/C/Sites/newrail/spec/requests/static_pages_spec.rb",
+		"/C/Sites/newrail/app/views/layouts/_header.html.erb",
+		"/C/Sites/newrail/app/views/static_pages/about.html.erb",
+		"/C/Sites/newrail/config/environment.rb",
+		"/C/Sites/newrail/Gemfile.lock"
 	],
 	"find":
 	{
@@ -49,6 +200,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			")}\n",
+			"#999"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -56,6 +209,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$grayLight"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -66,8 +220,222 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/helpers/sessions_helper.rb",
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/models/user_spec.rb",
+					"settings":
+					{
+						"buffer_size": 3033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2761,
+								2761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "db/migrate/20130714095518_add_remember_token_to_users.rb",
+					"settings":
+					{
+						"buffer_size": 163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/layouts/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								870,
+								870
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								643,
+								643
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -77,7 +445,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -104,7 +472,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -127,6 +495,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true
 }
