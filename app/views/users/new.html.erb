@@ -6,7 +6,7 @@
 		<%= form_for(@user) do |f| %>
 			<%= render 'shared/error_messages' %>
 
-			<%= render 'shared/user_edit' %>
+			<%= render partial: 'shared/user_edit', locals: { f: f} %>
 
 			<%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
 		<% end %>
