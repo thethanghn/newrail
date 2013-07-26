@@ -1,0 +1,17 @@
+--- 
+cursor_positions: 
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 514
+    :timestamp: 2013-07-17 10:55:04.242000 +08:00
+  - :path: spec/models/micropost_spec.rb
+    :cursor_offset: 111
+    :timestamp: 2013-07-17 10:55:04.241000 +08:00
+    :selection_offset: 102
+    :block_selection_mode: false
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 489
+    :timestamp: 2013-07-24 23:09:07.267000 +08:00
+  - :path: spec/models/relationship_spec.rb
+    :cursor_offset: 563
+    :timestamp: 2013-07-26 10:08:05.260000 +08:00
+files_to_retain: 0
