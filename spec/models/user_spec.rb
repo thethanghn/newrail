@@ -23,6 +23,7 @@ describe User do
   it {should respond_to(:password_confirmation)}
   it {should respond_to(:authenticate)}
   it {should respond_to(:remember_token)}
+  it {should respond_to(:relationships)}
 
   it {should be_valid}
 
@@ -38,7 +39,7 @@ describe User do
   end
 
   describe "when name is too long" do
-  	before {@user.name = "123456789012345678901"}
+  	before {@user.name = "A"*51}
   	it {should_not be_valid}
   end
 
@@ -139,5 +140,25 @@ describe User do
       end
     end
   end
+
+
+  describe "following" do
+  	let (:other_user) { FactoryGirl.create(:user)}
+  	before do
+  		@user.save
+  		@user.follow!(other_user)
+  	end
+
+  	it { should be_following(other_user)}
+  	its(:followed_users) { should include(other_user)}
+
+	describe "unfollowing" do
+		before { @user.unfollow!(other_user)}
+
+		it {should_not be_following(other_user)}
+		its(:followed_users) {should_not include(other_user)}
+	end
+  end
+
 
 end

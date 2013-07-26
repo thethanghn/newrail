@@ -9,6 +9,7 @@
 		</section>
 	</aside>
 	<dic class="span8">
+    <%= render 'shared/follow_form' if signed_in? %>
 		<% if @user.microposts.any? %>
 			<h3>Microposts (<%= @user.microposts.count %>)</h3>
 			<ol class="microposts">

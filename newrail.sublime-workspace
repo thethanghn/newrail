@@ -59,79 +59,71 @@
 			"file": "app/helpers/sessions_helper.rb",
 			"settings":
 			{
-				"buffer_size": 331,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "spec/models/user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 3033,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 315,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/controllers/application_controller.rb",
 			"settings":
 			{
-				"buffer_size": 105,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "db/migrate/20130714095518_add_remember_token_to_users.rb",
 			"settings":
 			{
-				"buffer_size": 163,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 904,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/views/layouts/_header.html.erb",
 			"settings":
 			{
-				"buffer_size": 917,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/assets/javascripts/application.js",
 			"settings":
 			{
-				"buffer_size": 663,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 0
 	},
 	"distraction_free":
 	{
@@ -144,6 +136,7 @@
 	},
 	"file_history":
 	[
+		"app/models/user.rb",
 		"/C/Sites/newrail/app/views/users/new.html.erb",
 		"/C/Sites/newrail/app/views/shared/_error_messages.html.erb",
 		"/C/Sites/newrail/app/controllers/users_controller.rb",
@@ -186,12 +179,15 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
-		"where_history":
+		"height": 0,
+		"include_history":
+		[
+		],
+		"location_history":
 		[
 		]
 	},
@@ -213,14 +209,14 @@
 		],
 		"reverse": false,
 		"show_context": true,
-		"use_buffer2": true,
+		"use_buffer": true,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -228,24 +224,24 @@
 					"file": "app/helpers/sessions_helper.rb",
 					"settings":
 					{
-						"buffer_size": 331,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								151,
-								151
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
 					},
 					"type": "text"
 				},
@@ -254,35 +250,7 @@
 					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 3033,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2761,
-								2761
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1620.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controllers/users_controller.rb",
-					"settings":
-					{
-						"buffer_size": 315,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -299,9 +267,37 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
+						"translation.x": 0,
+						"translation.y": 1620,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
 					},
 					"type": "text"
 				},
@@ -310,24 +306,24 @@
 					"file": "app/controllers/application_controller.rb",
 					"settings":
 					{
-						"buffer_size": 105,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
 					},
 					"type": "text"
 				},
@@ -336,67 +332,41 @@
 					"file": "db/migrate/20130714095518_add_remember_token_to_users.rb",
 					"settings":
 					{
-						"buffer_size": 163,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 904,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								887,
-								887
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "app/views/layouts/_header.html.erb",
 					"settings":
 					{
-						"buffer_size": 917,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								870,
-								870
+								0,
+								0
 							]
 						],
 						"settings":
@@ -404,35 +374,35 @@
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
-						"zoom_level": 1.0
+						"translation.x": 0,
+						"translation.y": 17,
+						"zoom_level": 1
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "app/assets/javascripts/application.js",
 					"settings":
 					{
-						"buffer_size": 663,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								643,
-								643
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
+						"translation.x": 0,
+						"translation.y": 90,
+						"zoom_level": 1
 					},
 					"type": "text"
 				}
@@ -441,11 +411,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 31
 	},
 	"layout":
 	{
@@ -460,41 +430,41 @@
 		],
 		"cols":
 		[
-			0.0,
-			1.0
+			0,
+			1
 		],
 		"rows":
 		[
-			0.0,
-			1.0
+			0,
+			1
 		]
 	},
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 62.0
+		"height": 62
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
-		"height": 0.0,
+		"height": 0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 267.0,
+	"side_bar_width": 267,
 	"status_bar_visible": true
 }
