@@ -5,7 +5,7 @@ describe "User Page" do
   describe "GET /user_pages" do
   	before {visit signup_path }
 
-    it {should have_selector("h1", text: "Signup")}
+    it {should have_title("Signup")}
   end
   
   describe "following/followers" do
@@ -18,7 +18,7 @@ describe "User Page" do
         sign_in user
         visit following_user_path(user)
       end
-      it { should have_selector('title', text: full_title('Following'))}
+      it { should have_title('Following')}
       it { should have_selector('h3', text: 'Following')}
       it { should have_link(other_user.name, href: user_path(other_user))}
     end
@@ -28,8 +28,8 @@ describe "User Page" do
         sign_in other_user
         visit followers_user_path(other_user)
       end
-      it { should have_selector('title', text: full_title('Following'))}
-      it { should have_selector('h3', text: 'Following')}
+      it { should have_title('Followers')}
+      it { should have_selector('h3', text: 'Followers')}
       it { should have_link(user.name, href: user_path(user))}
     end
     
@@ -37,12 +37,18 @@ describe "User Page" do
   
 end
 
-describe "Profile page" do
+describe "Profile page", type: :feature do
+  
 	let(:user) { FactoryGirl.create(:user)}
-	before { visit user_path(user)}
+	before { 
+    @controller = UsersController.new
+    visit user_path(user)
+  }
+  
+  subject {page}
 
 	it {should have_selector('h1', text: user.name)}
-	it {should have_selector('title', text: user.name)}
+	it {should have_title(user.name)}
   
   describe "follow/unfollow buttons" do
     let(:other_user) { FactoryGirl.create(:user)}
@@ -65,7 +71,7 @@ describe "Profile page" do
       describe "toggle the button" do
         before { click_button "Follow"}
         
-        it {should have_selector('input', value: 'Unfollow')}
+        it {should have_button('Unfollow')}
       end
     end
     
@@ -78,18 +84,18 @@ describe "Profile page" do
       it "should decrease user's follower" do
         expect do
           click_button "Unfollow"
-        end.to change(other_user.followers, :count).by(1)
+        end.to change(other_user.followers, :count).by(-1)
       end
       
       it "should decrease followed user count" do
         expect do
           click_button "Unfollow"
-        end.to change(user.followed_users, :count).by(1)
+        end.to change(user.followed_users, :count).by(-1)
       end
       
       describe "toggle follow button" do
         before { click_button "Unfollow" }
-        it {should have_selector('input', value: "Follow")}
+        it {should have_button("Follow")}
       end
     end 
   end
@@ -124,7 +130,7 @@ describe "Signup page" do
 	describe "with error message" do
 		before {click_button submit}
 		it "should show error messages" do
-			page.should have_selector('title', text: 'Signup')
+			page.should have_title('Signup')
 			page.should have_content('error')
 		end
 	end

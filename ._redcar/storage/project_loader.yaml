@@ -1,3 +1,5 @@
 --- 
-open_files: []
-
+open_files: 
+  - app/controllers/relationships_controller.rb
+  - app/views/relationships/create.js.erb
+  - app/views/relationships/destroy.js.erb

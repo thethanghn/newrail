@@ -22,7 +22,7 @@ describe "AuthenticationPages" do
 				click_button "Sign in"
 			end
 
-			it { should have_selector('h1', text: 'Sign in')}
+			it { should have_selector('h1', text: user.name)}
 			it { should have_link('Profile', href: user_path(user))}
 			it { should have_link('Sign out', href: signout_path)}
 			it { should_not have_link('Sign in', href: signin_path)}
@@ -36,27 +36,32 @@ describe "AuthenticationPages" do
 
   
   describe "authorization" do
+    
     describe "for non-signed-in users" do
-      let(:uesr) {FactoryGirl.create(:user)}
+      let(:user) {FactoryGirl.create(:user)}
       describe "in the Users controller" do
+        
         describe "visiting the following page" do
           before {visit following_user_path(user)}
-          it { should have_selector('title', text: 'Sign in')}
+          it { should have_title('Sign In')}
         end
         
         describe "visiting the follower page" do
           before {visit followers_user_path(user)}
-          it {should have_selector('title', text: 'Sign in')}
+          it {should have_title('Sign In')}
         end
       end
       
-      describe "in the Relationships controller" do
+      describe "in the Relationships controller", type: :feature do
+        
+        before { @controller = RelationshipsController.new }
+        
         describe "submitting to the create action" do
           before { post relationships_path}
           specify {response.should redirect_to(signin_path)}
         end
         describe "submitting to the destroy action" do
-          before { delete relationships_path(1)}
+          before { delete relationship_path(1)}
           specify {response.should redirect_to(signin_path)}
         end
       end

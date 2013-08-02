@@ -1,4 +1,4 @@
-1374841575
+1375430222
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -12,15 +12,11 @@ CreateMicroposts	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716074
 CreateRelationships	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130717143146_create_relationships.rb	class CreateRelationships 
 CreateUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713104228_create_users.rb	class CreateUsers 
 For signed-in users	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/static_pages_spec.rb	describe "For signed-in users"  do
-GET 'about'	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	describe "GET 'about'" do
-GET 'help'	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	describe "GET 'help'" do
-GET 'home'	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	describe "GET 'home'" do
 GET /user_pages	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "GET /user_pages" do
 Home Page	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/static_pages_spec.rb	describe "Home Page" do
 Micropost	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/micropost.rb	class Micropost 
 MicropostsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/microposts_controller.rb	class MicropostsController 
 Newrail	C:/Users/LENOVO/Documents/GitHub/newrail/config/application.rb	module Newrail
-Profile page	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "Profile page" do
 Relationship	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/relationship.rb	class Relationship 
 RelationshipsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/relationships_controller.rb	class RelationshipsController 
 SessionsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/sessions_controller.rb	class SessionsController 
@@ -43,29 +39,30 @@ accessible attributes	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micro
 admin_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb	    def admin_user
 after visiting another page	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "after visiting another page" do
 authorization	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "authorization" do
-change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130717143146_create_relationships.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716074518_create_microposts.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130714095518_add_remember_token_to_users.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_index_to_users_email.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713104228_create_users.rb	  def change
+change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130717143146_create_relationships.rb	  def change
 concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
 content validation	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micropost_spec.rb	describe "content validation" do
 correct_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/microposts_controller.rb			def correct_user
 correct_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	    def correct_user
 create	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/sessions_controller.rb		def create
 create	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/microposts_controller.rb		def create
-create	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def create
 create	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/relationships_controller.rb	  def create
+create	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def create
+create a relationship with ajax	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/relationships_controller_spec.rb	describe "create a relationship with ajax" do
 create_remember_token	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/user.rb	  	def create_remember_token
 current_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb		def current_user
 current_user=	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb		def current_user=(user)
 current_user?	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb		def current_user?(user)
 destroy	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/sessions_controller.rb		def destroy
 destroy	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/microposts_controller.rb		def destroy
-destroy	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def destroy
 destroy	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/relationships_controller.rb	  def destroy
+destroy	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def destroy
 edit	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def edit
 feed	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/user.rb	  def feed
 follow an user	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "follow an user" do
@@ -73,20 +70,20 @@ follow!	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/user.rb	  def follow
 follow/unfollow buttons	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "follow/unfollow buttons" do
 followed users	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "followed users" do
 follower methods	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/relationship_spec.rb	describe "follower methods" do
-followers	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def followers
 followers	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "followers" do
+followers	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def followers
 following	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "following" do
 following	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def following
 following/followers	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "following/followers" do
 following/followers coutns	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/static_pages_spec.rb	describe "following/followers coutns" do
 following?	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/user.rb	  def following?(other_user)
 for non-signed-in users	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "for non-signed-in users" do
+from_users_followed_by	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/micropost.rb	  def self.from_users_followed_by(user)
 full_title	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/application_helper.rb		def full_title(page_title)
 full_title	C:/Users/LENOVO/Documents/GitHub/newrail/spec/support/utilities.rb	def full_title(page_title)
 gravatar_for	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/users_helper.rb		def gravatar_for(user, size = 40)
 help	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/static_pages_controller.rb	  def home
-in the Relationships controller	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "in the Relationships controller" do
 in the Users controller	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "in the Users controller" do
 index	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def index
 micropost associations	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "micropost associations" do
@@ -96,9 +93,6 @@ not_signed_in_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions
 redirect_back_or	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb		def redirect_back_or(default)
 remember token	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "remember token" do
 return value of authenticate method	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "return value of authenticate method" do
-returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
-returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
-returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
 should be saved as lowercase	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should be saved as lowercase" do
 should be valid	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should be valid" do
 should create a user	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	it "should create a user" do
@@ -107,11 +101,13 @@ should decrease user's follower	C:/Users/LENOVO/Documents/GitHub/newrail/spec/fe
 should destroy associated microposts	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should destroy associated microposts" do
 should have microposts in the right order	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should have microposts in the right order" do
 should increment followed user count	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	it "should increment followed user count" do
+should increment the Relationship count	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/relationships_controller_spec.rb	it "should increment the Relationship count" do
 should increment user's following user count	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	it "should increment user's following user count" do
 should not allow access to follower_id	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/relationship_spec.rb	it "should not allow access to follower_id" do
 should not allow access to user_id	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micropost_spec.rb	it "should not allow access to user_id" do
 should not create a user	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	it "should not create a user" do
 should render the users's feed	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/static_pages_spec.rb	it "should render the users's feed" do
+should response with success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/relationships_controller_spec.rb	it "should response with success" do
 should show error messages	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	it "should show error messages" do
 show	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def show
 sign_in	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb		def sign_in(user)
@@ -152,9 +148,9 @@ with a password that is too short	C:/Users/LENOVO/Documents/GitHub/newrail/spec/
 with content is blank	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micropost_spec.rb	describe "with content is blank" do
 with content is too long	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micropost_spec.rb	describe "with content is too long" do
 with error message	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "with error message" do
-with invalid information	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "with invalid information" do
 with invalid information	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "with invalid information" do
+with invalid information	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "with invalid information" do
 with invalid password	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "with invalid password" do
-with valid information	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "with valid information" do
 with valid information	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "with valid information" do
+with valid information	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "with valid information" do
 with valid password	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "with valid password" do

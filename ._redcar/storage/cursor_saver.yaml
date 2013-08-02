@@ -14,4 +14,30 @@ cursor_positions:
   - :path: spec/models/relationship_spec.rb
     :cursor_offset: 563
     :timestamp: 2013-07-26 10:08:05.260000 +08:00
+  - :path: spec/controllers/static_pages_controller_spec.rb
+    :cursor_offset: 239
+    :timestamp: 2013-07-17 10:55:04.227000 +08:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 29
+    :timestamp: 2013-07-26 21:39:24.816000 +08:00
+  - :path: spec/features/static_pages_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2013-07-26 20:28:20.857000 +08:00
+  - :path: spec/features/authentication_pages_spec.rb
+    :cursor_offset: 606
+    :timestamp: 2013-07-26 21:32:46.805000 +08:00
+  - :path: Gemfile
+    :cursor_offset: 313
+    :timestamp: 2013-07-26 21:57:53.648000 +08:00
+  - :path: app/controllers/relationships_controller.rb
+    :cursor_offset: 519
+    :timestamp: 2013-07-31 15:35:56.284000 +08:00
+  - :path: app/views/relationships/create.js.erb
+    :cursor_offset: 0
+    :timestamp: 2013-07-31 15:45:55.966000 +08:00
+    :selection_offset: 129
+    :block_selection_mode: false
+  - :path: app/views/relationships/destroy.js.erb
+    :cursor_offset: 44
+    :timestamp: 2013-07-31 15:46:37.916000 +08:00
 files_to_retain: 0
