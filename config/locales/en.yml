@@ -3,3 +3,16 @@
 
 en:
   hello: "Hello world"
+  
+  classy_enum:
+    job_type:
+      fulltime: 'Full-Time'
+      parttime: 'Part-Time'
+      intership: 'Internship'
+      freelance: 'Freelance'
+      temporary: 'Temporary'
+    city:
+      hanoi: 'Ha Noi'
+      hcmc: 'Ho Chi Minh'
+      abroad: 'Abroad'
+      other: 'Other'

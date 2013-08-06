@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130806073650) do
+ActiveRecord::Schema.define(:version => 20130806094022) do
 
   create_table "jobs", :force => true do |t|
     t.string   "title"
@@ -21,8 +21,12 @@ ActiveRecord::Schema.define(:version => 20130806073650) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "company"
+    t.string   "job_type"
+    t.string   "city"
   end
 
+  add_index "jobs", ["city"], :name => "index_jobs_on_city"
+  add_index "jobs", ["job_type"], :name => "index_jobs_on_job_type"
   add_index "jobs", ["user_id"], :name => "index_jobs_on_user_id"
 
   create_table "microposts", :force => true do |t|

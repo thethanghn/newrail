@@ -26,9 +26,6 @@ cursor_positions:
   - :path: spec/features/authentication_pages_spec.rb
     :cursor_offset: 606
     :timestamp: 2013-07-26 21:32:46.805000 +08:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 172
-    :timestamp: 2013-08-03 14:25:30.090000 +08:00
   - :path: app/assets/stylesheets/bootmetro/bootmetro-icons.min.css
     :cursor_offset: 0
     :timestamp: 2013-06-18 15:22:18.733000 +08:00
@@ -46,18 +43,12 @@ cursor_positions:
   - :path: app/views/layouts/_header.html.erb
     :cursor_offset: 802
     :timestamp: 2013-08-06 11:28:33.281000 +08:00
-  - :path: app/assets/stylesheets/custom.css.scss
-    :cursor_offset: 875
-    :timestamp: 2013-08-06 11:20:56.605000 +08:00
   - :path: config/routes.rb
     :cursor_offset: 315
     :timestamp: 2013-08-06 10:53:22.897000 +08:00
   - :path: db/migrate/20130806023702_create_jobs.rb
     :cursor_offset: 246
     :timestamp: 2013-08-06 10:37:02.661000 +08:00
-  - :path: app/models/job.rb
-    :cursor_offset: 0
-    :timestamp: 2013-08-06 10:37:02.663000 +08:00
   - :path: app/controllers/jobs_controller.rb
     :cursor_offset: 0
     :timestamp: 2013-08-06 10:30:47.218000 +08:00
@@ -70,20 +61,12 @@ cursor_positions:
   - :path: app/controllers/microposts_controller.rb
     :cursor_offset: 0
     :timestamp: 2013-07-17 10:55:04.192000 +08:00
-  - :path: app/models/micropost.rb
-    :cursor_offset: 204
-    :timestamp: 2013-08-02 15:57:00.167000 +08:00
-    :selection_offset: 199
-    :block_selection_mode: false
   - :path: app/controllers/static_pages_controller.rb
     :cursor_offset: 220
     :timestamp: 2013-08-06 12:44:37.889000 +08:00
   - :path: app/views/shared/_feed.html.erb
     :cursor_offset: 0
     :timestamp: 2013-07-17 10:55:04.201000 +08:00
-  - :path: app/views/shared/_jobs.html.erb
-    :cursor_offset: 178
-    :timestamp: 2013-08-06 12:01:42.832000 +08:00
   - :path: app/views/static_pages/_default.html.erb
     :cursor_offset: 0
     :timestamp: 2013-07-17 10:55:04.204000 +08:00
@@ -96,24 +79,12 @@ cursor_positions:
   - :path: app/views/users/show.html.erb
     :cursor_offset: 0
     :timestamp: 2013-07-26 20:28:20.848000 +08:00
-  - :path: app/views/shared/_follow.html.erb
-    :cursor_offset: 0
-    :timestamp: 2013-07-28 12:03:41.567000 +08:00
-  - :path: app/views/static_pages/home.html.erb
-    :cursor_offset: 499
-    :timestamp: 2013-08-06 11:47:57.539000 +08:00
-  - :path: Gemfile
-    :cursor_offset: 329
-    :timestamp: 2013-08-03 13:13:20.653000 +08:00
   - :path: app/views/relationships/destroy.js.erb
     :cursor_offset: 44
     :timestamp: 2013-07-31 15:46:37.916000 +08:00
   - :path: app/views/relationships/create.js.erb
     :cursor_offset: 102
     :timestamp: 2013-07-31 15:45:55.966000 +08:00
-  - :path: lib/tasks/sample_data.rake
-    :cursor_offset: 87
-    :timestamp: 2013-08-06 13:33:10.089000 +08:00
   - :path: app/controllers/users_controller.rb
     :cursor_offset: 341
     :timestamp: 2013-08-02 15:46:13.415000 +08:00
@@ -137,4 +108,47 @@ cursor_positions:
   - :path: app/models/user.rb
     :cursor_offset: 449
     :timestamp: 2013-08-06 10:41:15.146000 +08:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 3036
+    :timestamp: 2013-08-06 14:20:00.602000 +08:00
+  - :path: app/views/shared/_jobs.html.erb
+    :cursor_offset: 294
+    :timestamp: 2013-08-06 15:53:01.292000 +08:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 241
+    :timestamp: 2013-08-06 14:12:21.370000 +08:00
+  - :path: app/views/shared/_follow.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-07-28 12:03:41.567000 +08:00
+    :selection_offset: 208
+    :block_selection_mode: false
+  - :path: app/views/shared/_like.html.erb
+    :cursor_offset: 81
+    :timestamp: 2013-08-06 15:10:27.782000 +08:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 572
+    :timestamp: 2013-08-06 14:52:55.091000 +08:00
+  - :path: lib/tasks/sample_data.rake
+    :cursor_offset: 1082
+    :timestamp: 2013-08-06 16:03:06.580000 +08:00
+  - :path: app/models/job.rb
+    :cursor_offset: 154
+    :timestamp: 2013-08-06 16:01:43.839000 +08:00
+  - :path: app/models/micropost.rb
+    :cursor_offset: 204
+    :timestamp: 2013-08-02 15:57:00.167000 +08:00
+    :selection_offset: 199
+    :block_selection_mode: false
+  - :path: Gemfile
+    :cursor_offset: 364
+    :timestamp: 2013-08-03 13:13:20.653000 +08:00
+  - :path: db/migrate/20130714095518_add_remember_token_to_users.rb
+    :cursor_offset: 0
+    :timestamp: 2013-07-17 10:55:04.218000 +08:00
+  - :path: app/enums/job_type.rb
+    :cursor_offset: 0
+    :timestamp: 2013-08-06 16:53:16.082000 +08:00
+  - :path: db/migrate/20130806085429_add_job_type_to_jobs.rb
+    :cursor_offset: 133
+    :timestamp: 2013-08-06 16:54:57.216000 +08:00
 files_to_retain: 0

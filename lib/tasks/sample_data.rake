@@ -43,7 +43,9 @@ def make_jobs
       title = Faker::Lorem.sentence(5)
       body  = Faker::Lorem.paragraphs(3)
       company = Faker::Company.name
-      user.jobs.create(title: title, body: body, company: company, published: Random.rand(100).days.ago )
+      job_type = JobType.all.sample
+      city = City.all.sample
+      user.jobs.create(title: title, body: body, job_type: job_type, city: city, company: company, published: Random.rand(100).days.ago )
     end
   end
 end

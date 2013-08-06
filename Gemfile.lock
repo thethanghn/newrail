@@ -43,6 +43,8 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    classy_enum (3.3.1)
+      rails (>= 3.0)
     coderay (1.0.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -60,11 +62,11 @@ GEM
     factory_girl_rails (1.4.0)
       factory_girl (~> 2.3.0)
       railties (>= 3.0.0)
-    faker (1.1.2)
+    faker (1.2.0)
       i18n (~> 0.5)
     ffi (1.9.0-x86-mingw32)
     formatador (0.2.4)
-    guard (1.8.1)
+    guard (1.8.2)
       formatador (>= 0.2.4)
       listen (>= 1.0.0)
       lumberjack (>= 1.0.2)
@@ -88,10 +90,10 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    method_source (0.8.1)
+    method_source (0.8.2)
     mime-types (1.23)
     mini_portile (0.5.1)
-    multi_json (1.7.7)
+    multi_json (1.7.8)
     nokogiri (1.6.0-x86-mingw32)
       mini_portile (~> 0.5.0)
     pg (0.16.0-x86-mingw32)
@@ -141,7 +143,7 @@ GEM
     rspec-core (2.14.4)
     rspec-expectations (2.14.0)
       diff-lcs (>= 1.1.3, < 2.0)
-    rspec-mocks (2.14.1)
+    rspec-mocks (2.14.2)
     rspec-rails (2.14.0)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
@@ -149,7 +151,7 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
-    sass (3.2.9)
+    sass (3.2.10)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -184,6 +186,7 @@ DEPENDENCIES
   bootstrap-sass
   bootstrap-will_paginate
   capybara
+  classy_enum
   coffee-rails
   factory_girl_rails (= 1.4.0)
   faker
