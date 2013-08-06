@@ -1,0 +1,30 @@
+<h1>Job List</h1>
+<section class="metro">
+<% if @jobs.any? %>
+<ul class="jobs">
+<% @jobs.each do |job| %>
+<li>
+  <div class="row">
+    <div class="span1">
+      <%= render 'shared/like' %>
+    </div>
+    <div class="span1 job-type">
+      <%= job.job_type.text %>
+    </div>
+    <div class="span5">
+      <h4><%= job.title %></h4>
+      <small><%= job.company %></small>
+    </div>
+    <div class="span1 city">
+      <%= job.city.text %>
+    </div>
+</li>
+<% end %>
+</ul>
+
+<%= will_paginate @jobs %>
+<% else %>
+  No job has been posted
+<% end %>
+
+</section>
