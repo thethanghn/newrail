@@ -12,7 +12,20 @@
 		</div>
 	</div>
 <% else %>
-	<%= render 'default' %>
+<div class="row">
+  <div class="span8">
+    <section>Search form here</section>
+    <esction><%= render 'shared/jobs' %></section>
+  </div>
+  <aside class="span4">
+    <section class="metro">
+          <a href="#" class="tile square text tilesquareblock">
+                     <div class="text-big">22</div>
+                     <div class="text">Text field 2</div>
+                  </a>
+    </section>
+  </aside>
+</div>
 <% end %>
 
  <button class="win-command" rel="tootlip" title="Simple command with only an icon">

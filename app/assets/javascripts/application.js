@@ -12,5 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree ./bootmetro
+//= require ./bootmetro/bootstrap.min.js
+//= require ./bootmetro/bootmetro.min.js
+//= require ./bootmetro/bootmetro-charms.min.js
+//= require ./bootmetro/bootmetro-panorama.min.js
+//= require ./bootmetro/bootmetro-pivot.min.js
 //= require_tree .

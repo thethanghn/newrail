@@ -4,6 +4,7 @@ namespace :db do
 		make_users
 		make_microposts
 		make_relationships
+    make_jobs
 	end
 end
 
@@ -35,3 +36,11 @@ def make_relationships
 	followers.each {|follower| follower.follow!(user)}
 end
 
+def make_jobs
+  users = User.all()
+  23.times do
+    title = Faker::Lorem.sentence(10)
+    body  = Faker::Lorem.paragraphs(3)
+    users.each { |user| user.jobs.create(title: title, body: body, published: Random.rand(100).days.ago )}
+  end
+end
