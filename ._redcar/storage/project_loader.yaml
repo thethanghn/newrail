@@ -3,3 +3,8 @@ open_files:
   - app/controllers/relationships_controller.rb
   - app/views/relationships/create.js.erb
   - app/views/relationships/destroy.js.erb
+  - Gemfile
+  - app/assets/javascripts/application.js
+  - app/assets/stylesheets/application.css
+  - app/controllers/static_pages_controller.rb
+  - app/views/static_pages/home.html.erb

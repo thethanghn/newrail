@@ -1,4 +1,4 @@
-1375430222
+1375758013
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -8,12 +8,20 @@ ApplicationController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/a
 ApplicationHelper	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/application_helper.rb	module ApplicationHelper
 AuthenticationPages	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "AuthenticationPages" do
 BrowsingTest	C:/Users/LENOVO/Documents/GitHub/newrail/test/performance/browsing_test.rb	class BrowsingTest 
+CreateJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806023702_create_jobs.rb	class CreateJobs 
 CreateMicroposts	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716074518_create_microposts.rb	class CreateMicroposts 
 CreateRelationships	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130717143146_create_relationships.rb	class CreateRelationships 
 CreateUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713104228_create_users.rb	class CreateUsers 
 For signed-in users	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/static_pages_spec.rb	describe "For signed-in users"  do
+GET 'about'	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	describe "GET 'about'" do
+GET 'help'	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	describe "GET 'help'" do
+GET 'home'	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	describe "GET 'home'" do
+GET 'index'	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/jobs_controller_spec.rb	describe "GET 'index'" do
 GET /user_pages	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "GET /user_pages" do
 Home Page	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/static_pages_spec.rb	describe "Home Page" do
+Job	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/job.rb	class Job 
+JobsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/jobs_controller.rb	class JobsController 
+JobsHelper	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/jobs_helper.rb	module JobsHelper
 Micropost	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/micropost.rb	class Micropost 
 MicropostsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/microposts_controller.rb	class MicropostsController 
 Newrail	C:/Users/LENOVO/Documents/GitHub/newrail/config/application.rb	module Newrail
@@ -46,7 +54,9 @@ change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_pa
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_index_to_users_email.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713104228_create_users.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130717143146_create_relationships.rb	  def change
+change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806023702_create_jobs.rb	  def change
 concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
+concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/jobs_helper_spec.rb	it "concats two strings with spaces" do
 content validation	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micropost_spec.rb	describe "content validation" do
 correct_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/microposts_controller.rb			def correct_user
 correct_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	    def correct_user
@@ -86,6 +96,8 @@ help	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/static_pages_contr
 home	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/static_pages_controller.rb	  def home
 in the Users controller	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "in the Users controller" do
 index	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def index
+index	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/jobs_controller.rb	  def index
+jobs/index.html.erb	C:/Users/LENOVO/Documents/GitHub/newrail/spec/views/jobs/index.html.erb_spec.rb	describe "jobs/index.html.erb" do
 micropost associations	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "micropost associations" do
 new	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/sessions_controller.rb		def new
 new	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def new
@@ -93,6 +105,10 @@ not_signed_in_user	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions
 redirect_back_or	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb		def redirect_back_or(default)
 remember token	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "remember token" do
 return value of authenticate method	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "return value of authenticate method" do
+returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/jobs_controller_spec.rb	it "returns http success" do
 should be saved as lowercase	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should be saved as lowercase" do
 should be valid	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should be valid" do
 should create a user	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	it "should create a user" do
@@ -121,6 +137,7 @@ static_pages/help.html.erb	C:/Users/LENOVO/Documents/GitHub/newrail/spec/views/s
 static_pages/home,.html.erb	C:/Users/LENOVO/Documents/GitHub/newrail/spec/views/static_pages/home,.html.erb_spec.rb	describe "static_pages/home,.html.erb" do
 store_location	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb		def store_location
 string concat	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/static_pages_helper_spec.rb	describe "string concat" do
+string concat	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/jobs_helper_spec.rb	describe "string concat" do
 submitting to the create action	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "submitting to the create action" do
 submitting to the destroy action	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "submitting to the destroy action" do
 test_homepage	C:/Users/LENOVO/Documents/GitHub/newrail/test/performance/browsing_test.rb	  def test_homepage

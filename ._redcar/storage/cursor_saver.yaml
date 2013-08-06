@@ -26,18 +26,48 @@ cursor_positions:
   - :path: spec/features/authentication_pages_spec.rb
     :cursor_offset: 606
     :timestamp: 2013-07-26 21:32:46.805000 +08:00
-  - :path: Gemfile
-    :cursor_offset: 313
-    :timestamp: 2013-07-26 21:57:53.648000 +08:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 172
+    :timestamp: 2013-08-03 14:25:30.090000 +08:00
+  - :path: app/assets/stylesheets/bootmetro/bootmetro-icons.min.css
+    :cursor_offset: 0
+    :timestamp: 2013-06-18 15:22:18.733000 +08:00
+  - :path: app/assets/stylesheets/bootmetro/bootmetro-responsive.min.css
+    :cursor_offset: 0
+    :timestamp: 2013-06-18 15:22:16.870000 +08:00
+  - :path: config/application.rb
+    :cursor_offset: 2684
+    :timestamp: 2013-08-03 17:49:56.069000 +08:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 206
+    :timestamp: 2013-07-26 20:28:20.839000 +08:00
+  - :path: app/assets/stylesheets/bootmetro/bootmetro.css
+    :cursor_offset: 10757
+    :timestamp: 2013-06-18 15:22:03.745000 +08:00
+    :selection_offset: 10761
+    :block_selection_mode: false
   - :path: app/controllers/relationships_controller.rb
     :cursor_offset: 519
     :timestamp: 2013-07-31 15:35:56.284000 +08:00
   - :path: app/views/relationships/create.js.erb
     :cursor_offset: 0
     :timestamp: 2013-07-31 15:45:55.966000 +08:00
-    :selection_offset: 129
-    :block_selection_mode: false
   - :path: app/views/relationships/destroy.js.erb
     :cursor_offset: 44
     :timestamp: 2013-07-31 15:46:37.916000 +08:00
+  - :path: Gemfile
+    :cursor_offset: 329
+    :timestamp: 2013-08-03 13:13:20.653000 +08:00
+  - :path: app/assets/javascripts/application.js
+    :cursor_offset: 325
+    :timestamp: 2013-08-03 18:03:43.082000 +08:00
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 575
+    :timestamp: 2013-08-03 14:29:47.695000 +08:00
+  - :path: app/controllers/static_pages_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2013-07-17 10:55:04.193000 +08:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 562
+    :timestamp: 2013-08-03 18:25:12.098000 +08:00
 files_to_retain: 0

@@ -17,6 +17,7 @@ class User < ActiveRecord::Base
   has_many :reverse_relationships, foreign_key: 'followed_id', dependent: :destroy, class_name: 'Relationship'
   has_many :followed_users, through: :relationships, source: :followed
   has_many :followers, through: :reverse_relationships, source: :follower
+  has_many :jobs, dependent: :destroy
 
   before_save { |user| user.email = email.downcase }
 

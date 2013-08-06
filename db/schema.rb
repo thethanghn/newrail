@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130717143146) do
+ActiveRecord::Schema.define(:version => 20130806023702) do
+
+  create_table "jobs", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.boolean  "published"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "jobs", ["user_id"], :name => "index_jobs_on_user_id"
 
   create_table "microposts", :force => true do |t|
     t.string   "content"
