@@ -39,8 +39,11 @@ end
 def make_jobs
   users = User.all()
   23.times do
-    title = Faker::Lorem.sentence(10)
-    body  = Faker::Lorem.paragraphs(3)
-    users.each { |user| user.jobs.create(title: title, body: body, published: Random.rand(100).days.ago )}
+    users.each do |user| 
+      title = Faker::Lorem.sentence(5)
+      body  = Faker::Lorem.paragraphs(3)
+      company = Faker::Company.name
+      user.jobs.create(title: title, body: body, company: company, published: Random.rand(100).days.ago )
+    end
   end
 end

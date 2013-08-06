@@ -1,5 +1,6 @@
-1375773453
+1375776613
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
+AddCompanyToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806073650_add_company_to_jobs.rb	class AddCompanyToJobs 
 AddIndexToUsersEmail	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 AddRememberTokenToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130714095518_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
@@ -55,6 +56,7 @@ change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_in
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713104228_create_users.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130717143146_create_relationships.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806023702_create_jobs.rb	  def change
+change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806073650_add_company_to_jobs.rb	  def change
 concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
 concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/jobs_helper_spec.rb	it "concats two strings with spaces" do
 content validation	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micropost_spec.rb	describe "content validation" do
