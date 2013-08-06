@@ -1,4 +1,4 @@
-1375758013
+1375760305
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
