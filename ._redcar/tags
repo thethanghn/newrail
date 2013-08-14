@@ -1,9 +1,10 @@
-1376472247
+1376492036
 Abroad	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Abroad 
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
 AddCityToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806094022_add_city_to_jobs.rb	class AddCityToJobs 
 AddCompanyToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806073650_add_company_to_jobs.rb	class AddCompanyToJobs 
 AddIndexToUsersEmail	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713131814_add_index_to_users_email.rb	class AddIndexToUsersEmail 
+AddJobCategoryToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130814135546_add_job_category_to_jobs.rb	class AddJobCategoryToJobs 
 AddJobTypeToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806085429_add_job_type_to_jobs.rb	class AddJobTypeToJobs 
 AddPasswordDigestToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 AddRememberTokenToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130714095518_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
@@ -30,10 +31,13 @@ Hanoi	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Han
 Hcmc	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Hcmc 
 Home Page	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/static_pages_spec.rb	describe "Home Page" do
 Intership	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_type.rb	class JobType::Intership 
+Itsoftware	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_category.rb	class JobCategory::Itsoftware 
 Job	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/job.rb	class Job 
+JobCategory	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_category.rb	class JobCategory 
 JobType	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_type.rb	class JobType 
 JobsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/jobs_controller.rb	class JobsController 
 JobsHelper	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/jobs_helper.rb	module JobsHelper
+Marketing	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_category.rb	class JobCategory::Marketing 
 Micropost	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/micropost.rb	class Micropost 
 MicropostsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/microposts_controller.rb	class MicropostsController 
 Newrail	C:/Users/LENOVO/Documents/GitHub/newrail/config/application.rb	module Newrail
@@ -41,6 +45,7 @@ Other	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Oth
 Parttime	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_type.rb	class JobType::Parttime 
 Relationship	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/relationship.rb	class Relationship 
 RelationshipsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/relationships_controller.rb	class RelationshipsController 
+Sales	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_category.rb	class JobCategory::Sales 
 SearchJob	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/search_job.rb	class SearchJob 
 SessionsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb	module SessionsHelper
@@ -76,6 +81,7 @@ change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806073650_add_co
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806085429_add_job_type_to_jobs.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806094022_add_city_to_jobs.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130807034600_add_valid_after_to_jobs.rb	  def change
+change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130814135546_add_job_category_to_jobs.rb	  def change
 column	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/tableless.rb	  def self.column(name, sql_type = nil, default = nil, null = true)
 columns	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/tableless.rb	  def self.columns
 concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do

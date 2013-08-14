@@ -44,9 +44,10 @@ def make_jobs
       body  = Faker::Lorem.paragraphs(3)
       company = Faker::Company.name
       job_type = JobType.all.sample
+      job_category = JobCategory.all.sample
       city = City.all.sample
       valid_after = (5..45).to_a.sample
-      user.jobs.create(title: title, body: body, job_type: job_type, city: city, company: company, published: Random.rand(100).days.ago, valid_after: valid_after )
+      user.jobs.create(title: title, body: body, job_type: job_type, job_category: job_category, city: city, company: company, published: Random.rand(100).days.ago, valid_after: valid_after )
     end
   end
 end

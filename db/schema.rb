@@ -11,22 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130807034600) do
+ActiveRecord::Schema.define(:version => 20130814135546) do
 
   create_table "jobs", :force => true do |t|
     t.string   "title"
     t.text     "body"
     t.boolean  "published"
     t.integer  "user_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
     t.string   "company"
     t.string   "job_type"
     t.string   "city"
     t.integer  "valid_after"
+    t.string   "job_category"
   end
 
   add_index "jobs", ["city"], :name => "index_jobs_on_city"
+  add_index "jobs", ["job_category"], :name => "index_jobs_on_job_category"
   add_index "jobs", ["job_type"], :name => "index_jobs_on_job_type"
   add_index "jobs", ["user_id"], :name => "index_jobs_on_user_id"
 

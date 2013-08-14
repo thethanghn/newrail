@@ -82,9 +82,6 @@ cursor_positions:
   - :path: db/migrate/20130714095518_add_remember_token_to_users.rb
     :cursor_offset: 0
     :timestamp: 2013-07-17 10:55:04.218000 +08:00
-  - :path: db/migrate/20130806085429_add_job_type_to_jobs.rb
-    :cursor_offset: 133
-    :timestamp: 2013-08-06 16:54:57.216000 +08:00
   - :path: app/views/users/show.html.erb
     :cursor_offset: 394
     :timestamp: 2013-07-26 20:28:20.848000 +08:00
@@ -175,4 +172,13 @@ cursor_positions:
   - :path: app/enums/job_type.rb
     :cursor_offset: 0
     :timestamp: 2013-08-06 16:53:16.082000 +08:00
+  - :path: db/migrate/20130814135321_add_job_category_to_jobs.rb
+    :cursor_offset: 0
+    :timestamp: 2013-08-14 21:53:21.916000 +08:00
+  - :path: db/migrate/20130806085429_add_job_type_to_jobs.rb
+    :cursor_offset: 133
+    :timestamp: 2013-08-06 16:54:57.216000 +08:00
+  - :path: db/migrate/20130814135546_add_job_category_to_jobs.rb
+    :cursor_offset: 0
+    :timestamp: 2013-08-14 21:55:46.464000 +08:00
 files_to_retain: 0

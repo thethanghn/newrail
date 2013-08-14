@@ -2,11 +2,15 @@
 <%= label_tag :keyword, 'Search for:' %>
 <%= text_field_tag :keyword, @option.keyword, :class => 'search-query' %>
 
-<%= label_tag :location, 'in:'%>
-<%= select_tag :location, options_for_select(City.select_options, selected: @option.location), :include_blank => true  %>
+<%= label_tag :job_category, 'in:'%>
+<%= select_tag :job_category, options_for_select(JobCategory.select_options, selected: @option.job_category), :include_blank => true  %>
 
 <% @option.job_types.each do |o| %>
   <%= hidden_field_tag 'job_types[]', o %>
+<% end %>
+
+<% @option.locations.each do |o| %>
+  <%= hidden_field_tag 'locations[]', o %>
 <% end %>
 
 <%= submit_tag "Search", class: "btn btn-large btn-primary"%>

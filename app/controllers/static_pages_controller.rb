@@ -4,7 +4,12 @@ class StaticPagesController < ApplicationController
   		@micropost = current_user.microposts.build
   		@feed_items = current_user.feed.paginate(page: params[:page])
   	end
-    @option = SearchJob.new(keyword: params[:keyword] || '', location: params[:location] || '', job_types: params[:job_types] || [])
+    @option = SearchJob.new(
+      keyword: params[:keyword] || '', 
+      job_category: params[:job_category] || '', 
+      job_types: params[:job_types] || [],
+      locations: params[:locations] || []
+    )
     @jobs = Job.search(@option).paginate(page: params[:page])
   end
 
