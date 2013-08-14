@@ -1,0 +1,11 @@
+<h3>Filter by Job Type</h3>
+<%= form_tag '/', method: 'get' do |f| %>
+<ul class="filter-job-type">
+  <% JobType.each do |job_type| %>
+  <li> <%= check_box_tag 'job_types[]', job_type.to_s, @option.job_types.include?(job_type.to_s) %>  <%= job_type.text %>   </li>
+  <% end %>
+</ul>
+  <%= hidden_field_tag :keyword, @option.keyword %>
+  <%= hidden_field_tag :location, @option.location %>
+  <%= submit_tag "Filter", class: "btn btn-large btn-primary"%>
+<% end %>

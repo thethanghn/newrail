@@ -1,4 +1,4 @@
-1376463924
+1376472247
 Abroad	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Abroad 
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
 AddCityToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806094022_add_city_to_jobs.rb	class AddCityToJobs 
@@ -120,6 +120,7 @@ home	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/static_pages_contr
 in the Users controller	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/authentication_pages_spec.rb	describe "in the Users controller" do
 index	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/users_controller.rb	  def index
 index	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/jobs_controller.rb	  def index
+initialize	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/search_job.rb	  def initialize(args)
 jobs/index.html.erb	C:/Users/LENOVO/Documents/GitHub/newrail/spec/views/jobs/index.html.erb_spec.rb	describe "jobs/index.html.erb" do
 micropost associations	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	describe "micropost associations" do
 new	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/sessions_controller.rb		def new

@@ -1,7 +1,5 @@
-class SearchJob < Tableless
-  attr_accessible :keyword, :location
-  
-  column :keyword, :string, ''
-  column :location, :string, ''
-  
+class SearchJob < Struct.new(:keyword, :location, :job_types)
+  def initialize(args)
+    super(*args.values_at(:keyword, :location, :job_types))
+  end
 end

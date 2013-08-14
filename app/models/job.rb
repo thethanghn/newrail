@@ -13,9 +13,14 @@ class Job < ActiveRecord::Base
     where{city == location}
   }
   
+  scope :with_job_type_any, ->(types) {
+    where{job_type >> types}
+  }
+  
   def self.search(option)
     list =  title_or_body_contains(option.keyword)
     list = list.in_location(option.location) unless option.location.empty?
+    list = list.with_job_type_any(option.job_types) unless option.job_types.empty?
     return list
   end
 end
