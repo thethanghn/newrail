@@ -1,4 +1,4 @@
-1375796266
+1376463924
 Abroad	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Abroad 
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
 AddCityToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806094022_add_city_to_jobs.rb	class AddCityToJobs 
@@ -7,6 +7,7 @@ AddIndexToUsersEmail	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/2013071
 AddJobTypeToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806085429_add_job_type_to_jobs.rb	class AddJobTypeToJobs 
 AddPasswordDigestToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130713140656_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 AddRememberTokenToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130714095518_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
+AddValidAfterToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130807034600_add_valid_after_to_jobs.rb	class AddValidAfterToJobs 
 Application	C:/Users/LENOVO/Documents/GitHub/newrail/config/application.rb	  class Application 
 ApplicationController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/application_helper.rb	module ApplicationHelper
@@ -40,6 +41,7 @@ Other	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Oth
 Parttime	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_type.rb	class JobType::Parttime 
 Relationship	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/relationship.rb	class Relationship 
 RelationshipsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/relationships_controller.rb	class RelationshipsController 
+SearchJob	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/search_job.rb	class SearchJob 
 SessionsController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/sessions_helper.rb	module SessionsHelper
 Signup page	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	describe "Signup page" do
@@ -48,6 +50,7 @@ StaticPagesController	C:/Users/LENOVO/Documents/GitHub/newrail/app/controllers/s
 StaticPagesControllerTest	C:/Users/LENOVO/Documents/GitHub/newrail/test/functional/static_pages_controller_test.rb	class StaticPagesControllerTest 
 StaticPagesHelper	C:/Users/LENOVO/Documents/GitHub/newrail/app/helpers/static_pages_helper.rb	module StaticPagesHelper
 StaticPagesHelperTest	C:/Users/LENOVO/Documents/GitHub/newrail/test/unit/helpers/static_pages_helper_test.rb	class StaticPagesHelperTest 
+Tableless	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/tableless.rb	class Tableless 
 Temporary	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/job_type.rb	class JobType::Temporary 
 TestCase	C:/Users/LENOVO/Documents/GitHub/newrail/test/test_helper.rb	class ActiveSupport::TestCase
 User	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/user.rb	class User 
@@ -72,6 +75,9 @@ change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806023702_create
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806073650_add_company_to_jobs.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806085429_add_job_type_to_jobs.rb	  def change
 change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806094022_add_city_to_jobs.rb	  def change
+change	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130807034600_add_valid_after_to_jobs.rb	  def change
+column	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/tableless.rb	  def self.column(name, sql_type = nil, default = nil, null = true)
+columns	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/tableless.rb	  def self.columns
 concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
 concats two strings with spaces	C:/Users/LENOVO/Documents/GitHub/newrail/spec/helpers/jobs_helper_spec.rb	it "concats two strings with spaces" do
 content validation	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/micropost_spec.rb	describe "content validation" do
@@ -126,6 +132,8 @@ returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/s
 returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/Users/LENOVO/Documents/GitHub/newrail/spec/controllers/jobs_controller_spec.rb	it "returns http success" do
+save	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/tableless.rb	  def save(validate = true)
+search	C:/Users/LENOVO/Documents/GitHub/newrail/app/models/job.rb	  def self.search(option)
 should be saved as lowercase	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should be saved as lowercase" do
 should be valid	C:/Users/LENOVO/Documents/GitHub/newrail/spec/models/user_spec.rb	it "should be valid" do
 should create a user	C:/Users/LENOVO/Documents/GitHub/newrail/spec/features/user_pages_spec.rb	it "should create a user" do

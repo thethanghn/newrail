@@ -1,4 +1,3 @@
-<h1>Job List</h1>
 <section class="metro">
 <% if @jobs.any? %>
 <ul class="jobs">
@@ -11,9 +10,13 @@
     <div class="span1 job-type">
       <%= job.job_type.text %>
     </div>
-    <div class="span5">
+    <div class="span4">
       <h4><%= job.title %></h4>
       <small><%= job.company %></small>
+    </div>
+    <div class="span1">
+      <%= job.created_at.strftime('%d %b')%><br/>
+      <%= job.valid_after %> day(s)
     </div>
     <div class="span1 city">
       <%= job.city.text %>

@@ -11,18 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130806094022) do
+ActiveRecord::Schema.define(:version => 20130807034600) do
 
   create_table "jobs", :force => true do |t|
     t.string   "title"
     t.text     "body"
     t.boolean  "published"
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.string   "company"
     t.string   "job_type"
     t.string   "city"
+    t.integer  "valid_after"
   end
 
   add_index "jobs", ["city"], :name => "index_jobs_on_city"
