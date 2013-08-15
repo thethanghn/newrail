@@ -1,4 +1,4 @@
-1376534358
+1376534826
 Abroad	C:/Users/LENOVO/Documents/GitHub/newrail/app/enums/city.rb	class City::Abroad 
 AddAdminToUsers	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130716040602_add_admin_to_users.rb	class AddAdminToUsers 
 AddCityToJobs	C:/Users/LENOVO/Documents/GitHub/newrail/db/migrate/20130806094022_add_city_to_jobs.rb	class AddCityToJobs 
