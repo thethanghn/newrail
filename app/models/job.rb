@@ -24,6 +24,7 @@ class Job < ActiveRecord::Base
   
   def self.search(option)
     list =  title_or_body_contains(option.keyword)
+    list = list.in_location_any(option.locations) unless option.locations.empty?
     list = list.with_job_category(option.job_category) unless option.job_category.empty?
     list = list.with_job_type_any(option.job_types) unless option.job_types.empty?
     return list
