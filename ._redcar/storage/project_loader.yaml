@@ -7,3 +7,15 @@ open_files:
   - app/views/shared/_like.html.erb
   - app/views/static_pages/home.html.erb
   - lib/tasks/sample_data.rake
+  - app/views/shared/_filter_by_location.erb
+  - app/views/shared/_search_job.html.erb
+  - app/controllers/static_pages_controller.rb
+  - app/models/search_job.rb
+  - app/models/job.rb
+  - app/views/shared/_filter_by_job_type.erb
+  - db/migrate/20130814135546_add_job_category_to_jobs.rb
+  - db/migrate/20130806085429_add_job_type_to_jobs.rb
+  - db/migrate/20130807034600_add_valid_after_to_jobs.rb
+  - db/migrate/20130806094022_add_city_to_jobs.rb
+  - db/migrate/20130806073650_add_company_to_jobs.rb
+  - db/migrate/20130806023702_create_jobs.rb
